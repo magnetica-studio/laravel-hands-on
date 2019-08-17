@@ -1,0 +1,12 @@
+{
+  "name": "laravel-hands-on",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/magnetica-studio/laravel-hands-on.git",
+  "author": "szk2s <suzukisjss@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docker-compose:up": "cd laradock && docker-compose up -d nginx mysql",
+    "docker-compose:stop": "cd laradock && docker-compose stop"
+  }
+}
